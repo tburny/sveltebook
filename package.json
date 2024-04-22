@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "postinstall": "pnpm exec husky init",
+    "postinstall": "pnpm exec husky",
     "test": "echo \"Error: no test specified\" && exit 0",
     "prepare": "husky",
     "commit": "cz"
