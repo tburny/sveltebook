@@ -1,1 +1,3 @@
-exec < /dev/tty && npx git-cz --hook || true 
+if [ -z "$PS1" ]; then
+    exec < /dev/tty && npx git-cz --hook || true 
+fi
